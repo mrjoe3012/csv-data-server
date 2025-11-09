@@ -9,6 +9,9 @@ authors = [
 requires-python = ">=3.11"
 dependencies = [
     "flask>=3.1.2",
+    "gunicorn>=23.0.0",
+    "pydantic>=2.12.4",
+    "pydantic-settings>=2.11.0",
     "python-dotenv>=1.2.1",
 ]
 
